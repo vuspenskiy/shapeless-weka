@@ -8,6 +8,8 @@ import vu.ml.Weka._
 import weka.core.{Attribute, Instance}
 
 /**
+ * Polymorphic functions on Weka primitives for generalisation of the Weka algoritms
+ * 
  * @author v.uspenskiy
  * @since 18/03/15
  */
