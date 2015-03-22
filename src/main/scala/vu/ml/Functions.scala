@@ -5,9 +5,7 @@ import shapeless.labelled._
 import shapeless.nat._
 import shapeless.ops.nat.ToInt
 import vu.ml.Weka._
-import weka.core._
-
-import scala.Option
+import weka.core.{Attribute, Instance}
 
 /**
  * @author v.uspenskiy
