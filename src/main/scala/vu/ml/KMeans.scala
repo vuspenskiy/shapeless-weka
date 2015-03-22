@@ -11,6 +11,9 @@ import hlist._
 import Functions._
 
 /**
+ * Generalized with shapeless version of Weka `SimpleKMeans` 
+ * independent of specific clustered objects
+ * 
  * @author v.uspenskiy, Miles Sabin, Eugene Burmako
  * @since 30/01/14 01:56
  */
