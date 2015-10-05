@@ -48,7 +48,7 @@ class KMeans[T : ClassTag, R <: HList, R2 <: HList, R3 <: HList, R4 <: HList, R5
       // Building features
       val generics = objects.map(objectGeneric.to)
       val values = generics.map(_.map(getDistinctValues)).reduce((dv1, dv2) => (dv1 zip dv2).map(combineValues))
-      val cardinality = values.map(size).toList.reduce(_ + _)
+      val cardinality = values.map(size).toList.sum
       val clusterAmount = scala.math.min(cardinality / clusterGrowthFactor, objects.size - 1)
       val features = values.map(createAttribute)
 
