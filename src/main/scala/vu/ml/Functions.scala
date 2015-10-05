@@ -33,7 +33,7 @@ object Functions {
 
   object createAttribute extends Poly1 {
     implicit def caseDouble [K] = at[(K, List[Double])]  { values => new Attribute(values._1.toString) }
-    implicit def caseLong   [K] = at[(K, List[Long])]    { values => new Attribute(values._1.toString, Seq()) }
+    implicit def caseLong   [K] = at[(K, List[Long])]    { values => new Attribute(values._1.toString) }
     implicit def caseBoolean[K] = at[(K, List[Boolean])] { values => new Attribute(values._1.toString, values._2.map(_.toString)) }
     implicit def caseString [K] = at[(K, List[String])]  { values => new Attribute(values._1.toString, values._2) }
   }
