@@ -1,6 +1,7 @@
 package vu.ml
 
 import shapeless.ops.hlist._
+import shapeless.HListExtensions._
 import vu._
 import weka.core.{Attribute, Instance, Instances}
 import weka.clusterers.SimpleKMeans
