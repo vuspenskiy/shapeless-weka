@@ -1,4 +1,4 @@
-package shapeless.range
+package shapeless.extensions
 
 import shapeless._
 import shapeless.ops.hlist.Prepend
