@@ -1,6 +1,8 @@
 package vu.ml
 
+import shapeless._
 import shapeless.ops.hlist._
+import shapeless.extensions._
 import shapeless.HListExtensions._
 import vu._
 import weka.core.{Attribute, Instance, Instances}
