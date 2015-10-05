@@ -1,5 +1,6 @@
-package shapeless
+package shapeless.range
 
+import shapeless._
 import shapeless.ops.hlist.Prepend
 
 /**
