@@ -1,7 +1,7 @@
-package shapeless
+package shapeless.extensions
 
+import shapeless._
 import shapeless.ops.hlist.{Length, Zip}
-import shapeless.extensions._
 
 /**
  * Method on `HList` to zip with range of `Nat` from zero to `HList` length minus one

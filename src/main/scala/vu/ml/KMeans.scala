@@ -3,14 +3,14 @@ package vu.ml
 import shapeless._
 import shapeless.ops.hlist._
 import shapeless.extensions._
-import shapeless.HListExtensions._
+import shapeless.extensions.HListExtensions._
+import HListExtensions._
 import vu._
 import weka.core.{Attribute, Instance, Instances}
 import weka.clusterers.SimpleKMeans
 import shapeless._
 import scala.reflect.ClassTag
 import vu.ml.Weka._
-import hlist._
 import Functions._
 
 /**
